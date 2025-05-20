@@ -1,0 +1,253 @@
+Results
+
+===== Extracted IOCs =====
+IPs     : ['159.65.52.75', '192.168.229.251', '192.168.202.79']
+Domains : ['DEASLog05.nsf', 'event.nsf', 'DEASLog.nsf', 'DEASLog02.nsf', 'dirassist.nsf', 'events5.nsf', 'DEESAdmin.nsf', 'decsadm.nsf', 'domguide.nsf', 'homepage.nsf', 'DEASLog04.nsf', 'domlog.nsf', 'DEASLog03.nsf', 'doladmin.nsf', 'www.cuchilleria.net', 'domcfg.nsf', 'events4.nsf', 'dspug.nsf', 'domadmin.nsf', 'decslog.nsf']
+Hashes  : ['f041fbbe51724f5ae7c9013e7be37cb3a5892984bc36ae0615e51168b658c627', '0f5613da4f2bc43abf210b9e4d773dd8a6cc048a7e6f4a9c0fe83c74264c472f']
+URLs    : ['http://nse.org/book/nse.html', 'http://59.97.177.216:60416/bin.sh']
+==============================
+
+[IP] -> 159.65.52.75
+
+Checking IOCs on VirusTotal:
+[IP_ADDRESSES] 159.65.52.75 → Malicious: 8
+Vendors flagged as malicious:
+ - AlphaSOC: malware
+ - BitDefender: malware
+ - CRDF: malicious
+ - CyRadar: malicious
+ - G-Data: malware
+ - Lionic: malicious
+ - SOCRadar: malware
+ - Webroot: malicious
+
+[+] Querying ThreatFox for: 159.65.52.75
+Results from ThreatFox:
+{
+    "query_status": "ok",
+    "data": [
+        {
+            "id": "1509879",
+            "ioc": "159.65.52.75:31337",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.sliver",
+            "malware_printable": "Sliver",
+            "malware_alias": null,
+            "malware_malpedia": "https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver",
+            "confidence_level": 50,
+            "first_seen": "2025-04-22 05:58:49 UTC",
+            "last_seen": null,
+            "reference": "https://www.shodan.io/host/159.65.52.75#31337",
+            "reporter": "juroots",
+            "tags": [
+                "c2",
+                "shodan",
+                "sliver"
+            ],
+            "malware_samples": []
+        }
+    ]
+}
+
+[IP] -> 192.168.229.251
+
+Checking IOCs on VirusTotal:
+[IP_ADDRESSES] 192.168.229.251 → Malicious: 0
+
+[+] Querying ThreatFox for: 192.168.229.251
+[!] Error: no_result
+
+[IP] -> 192.168.202.79
+
+Checking IOCs on VirusTotal:
+[IP_ADDRESSES] 192.168.202.79 → Malicious: 0
+
+[+] Querying ThreatFox for: 192.168.202.79
+[!] Error: no_result
+
+[DOMAIN] -> DEASLog05.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] DEASLog05.nsf → Error: 400
+
+[DOMAIN] -> event.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] event.nsf → Error: 400
+
+[DOMAIN] -> DEASLog.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] DEASLog.nsf → Error: 400
+
+[DOMAIN] -> DEASLog02.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] DEASLog02.nsf → Error: 400
+
+[DOMAIN] -> dirassist.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] dirassist.nsf → Error: 400
+
+[DOMAIN] -> events5.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] events5.nsf → Error: 400
+
+[DOMAIN] -> DEESAdmin.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] DEESAdmin.nsf → Error: 400
+
+[DOMAIN] -> decsadm.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] decsadm.nsf → Error: 400
+
+[DOMAIN] -> domguide.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] domguide.nsf → Error: 400
+
+[DOMAIN] -> homepage.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] homepage.nsf → Error: 400
+
+[DOMAIN] -> DEASLog04.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] DEASLog04.nsf → Error: 400
+
+[DOMAIN] -> domlog.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] domlog.nsf → Error: 400
+
+[DOMAIN] -> DEASLog03.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] DEASLog03.nsf → Error: 400
+
+[DOMAIN] -> doladmin.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] doladmin.nsf → Error: 400
+
+[DOMAIN] -> www.cuchilleria.net
+
+Checking IOCs on VirusTotal:
+[DOMAINS] www.cuchilleria.net → Malicious: 5
+Vendors flagged as malicious:
+ - BitDefender: malware
+ - Fortinet: malware
+ - G-Data: malware
+ - Lionic: malicious
+ - Seclookup: malicious
+
+[DOMAIN] -> domcfg.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] domcfg.nsf → Error: 400
+
+[DOMAIN] -> events4.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] events4.nsf → Error: 400
+
+[DOMAIN] -> dspug.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] dspug.nsf → Error: 400
+
+[DOMAIN] -> domadmin.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] domadmin.nsf → Error: 400
+
+[DOMAIN] -> decslog.nsf
+
+Checking IOCs on VirusTotal:
+[DOMAINS] decslog.nsf → Error: 400
+
+[URL] -> http://nse.org/book/nse.html
+[!] No results found for URL: http://nse.org/book/nse.html
+
+[URL] -> http://59.97.177.216:60416/bin.sh
+
+[+] Results for URL: http://59.97.177.216:60416/bin.sh
+{
+    "query_status": "ok",
+    "id": "3523290",
+    "urlhaus_reference": "https://urlhaus.abuse.ch/url/3523290/",
+    "url": "http://59.97.177.216:60416/bin.sh",
+    "url_status": "online",
+    "host": "59.97.177.216",
+    "date_added": "2025-04-24 02:29:05 UTC",
+    "last_online": null,
+    "threat": "malware_download",
+    "blacklists": {
+        "spamhaus_dbl": "not listed",
+        "surbl": "not listed"
+    },
+    "reporter": "geenensp",
+    "larted": "true",
+    "takedown_time_seconds": null,
+    "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+    ],
+    "payloads": [
+        {
+            "firstseen": "2025-04-24",
+            "filename": "bin.sh",
+            "file_type": "elf",
+            "response_size": "135784",
+            "response_md5": "59ce0baba11893f90527fc951ac69912",
+            "response_sha256": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+            "urlhaus_download": "https://urlhaus-api.abuse.ch/v1/download/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/",
+            "signature": "Mozi",
+            "virustotal": {
+                "result": "47 / 63",
+                "percent": "74.60",
+                "link": "https://www.virustotal.com/gui/file/4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7/detection/f-4293c1d"
+            },
+            "imphash": null,
+            "ssdeep": "3072:phNlHuBafLeBtfCzpta8xlBIOdVo3/4sxLJ10xioP:p3lOYoaja8xzx/0wsxzSi2",
+            "tlsh": "E5D3128BEF36DC1ECF001EB226DA5B9E9C6D756B41CBF0A4B9C1818F13A01C97D52215"
+        }
+    ]
+}
+[HASHES]
+ - SHA256: f041fbbe51724f5ae7c9013e7be37cb3a5892984bc36ae0615e51168b658c627
+ - SHA256: 0f5613da4f2bc43abf210b9e4d773dd8a6cc048a7e6f4a9c0fe83c74264c472f
+
+[+] Results for Hash: f041fbbe51724f5ae7c9013e7be37cb3a5892984bc36ae0615e51168b658c627
+  MD5 Hash       : 5537d725807584d2b92e993a1b5f5430
+  SHA1 Hash      : 4aea910201e1ad9386fc30f172aa7ea4ce94151a
+  SHA256 Hash    : f041fbbe51724f5ae7c9013e7be37cb3a5892984bc36ae0615e51168b658c627
+  File Name      : RFQ____RM quotation_JPEG IMAGE.img.exe
+  File Type      : exe
+  MIME Type      : application/x-dosexec
+  File Size      : 1000960 bytes
+  First Seen     : 2025-04-24 01:19:13
+  Tags           : ['DarkCloud', 'exe']
+----------------------------------------
+
+[+] Results for Hash: 0f5613da4f2bc43abf210b9e4d773dd8a6cc048a7e6f4a9c0fe83c74264c472f
+  MD5 Hash       : 2ca121d4a9171367e46153b18b5aa9dd
+  SHA1 Hash      : fcddca8c01bd3a27fc4445a2aa134085515cb297
+  SHA256 Hash    : 0f5613da4f2bc43abf210b9e4d773dd8a6cc048a7e6f4a9c0fe83c74264c472f
+  File Name      : na
+  File Type      : elf
+  MIME Type      : application/x-executable
+  File Size      : 435932 bytes
+  First Seen     : 2025-04-24 02:22:23
+  Tags           : ['elf', 'Prometei']
+----------------------------------------

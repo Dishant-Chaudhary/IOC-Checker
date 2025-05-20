@@ -1,0 +1,35 @@
+Project - IOC Checker Tool
+
+Logs -> IPv4 , Domain , URL , Hash
+
+Checks on using api key
+ - Virustotal
+ - Abuse.ch -> Urlhaus
+ - Abuse.ch -> Malware bazzar
+ - Abuseipdb.com 
+
+ Virustotal - IPv4 , Domain , URL , Hash
+ Abuse.ch - Urlhaus - URL
+          - Malware bazzar - Hash
+ Abuseipdb - IPv4
+
+ First take logs - extract IPv4 , Domain , URL , Hash in it 
+ then search on website or TI platforms
+
+ If found suspicious show results
+ 
+
+New Features
+ IOC Report Generation 
+ Automatte response Integration
+ Signature based Detection add on - Nmap , sqlmap
+
+
+
+
+
+
+
+
+
+

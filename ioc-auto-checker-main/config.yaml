@@ -1,0 +1,15 @@
+virustotal:
+  api_key: "<Your_VirusTotal_API_Key>"
+  base_url: "https://www.virustotal.com/api/v3"
+
+urlhaus:
+  api_key: "<Your_UrlHaus_API_Key>"
+  endpoint: "https://urlhaus-api.abuse.ch/v1/url/"
+
+threatfox:
+  api_key: "<Your_ThreatFox_API_Key>"
+  base_url: "threatfox-api.abuse.ch"
+
+malwarebazaar:
+  api_key: "<Your_MalwareBazaar_API_Key>"
+  base_url: https://mb-api.abuse.ch/api/v1/
